@@ -32,6 +32,7 @@ public class VideoViewActivity extends Activity {
     String VideoURL6 = "http://proxynotes.com/assignmnet/test.mp4?videoid=0006";
     String VideoURL7 = "http://proxynotes.com/assignmnet/test.mp4?videoid=0007";
     String VideoURL8 = "http://proxynotes.com/assignmnet/test.mp4?videoid=0008";
+    String VideoURL9 = "http://proxynotes.com/assignmnet/test.mp4?videoid=0009";
 
 
     @Override
