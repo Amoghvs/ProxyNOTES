@@ -1,17 +1,110 @@
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="@color/back">
+
 
     <Button
         android:id="@+id/MyButton"
+        android:background="@color/but"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Chapter 1&#10;&#10;Matter IN our Surroundings&#10;
-                                                    Duration:17.32minutes"
+        android:layout_height="110dp"
+        android:text="@string/c1"
         android:textAlignment="viewStart"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
 
-</RelativeLayout>
+
+    <Button
+        android:id="@+id/MyButton2"
+        android:paddingVertical="2dp"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c2"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+
+    <Button
+        android:id="@+id/MyButton3"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c3"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+
+    <Button
+        android:id="@+id/MyButton4"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c4"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/MyButton5"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c5"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/MyButton6"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c6"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/MyButton7"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c7"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/MyButton8"
+        android:background="@color/but"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c8"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/MyButton7"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+    </RelativeLayout>
+
