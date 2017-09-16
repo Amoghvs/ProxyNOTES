@@ -46,7 +46,7 @@ public class VideoViewActivity extends Activity {
         // Create a progressbar
         pDialog = new ProgressDialog(VideoViewActivity.this);
         // Set progressbar title
-        pDialog.setTitle("Streaming");
+        pDialog.setTitle("Streaming Video");
         // Set progressbar message
         pDialog.setMessage("Buffering...");
         pDialog.setIndeterminate(false);
@@ -59,52 +59,6 @@ public class VideoViewActivity extends Activity {
             MediaController mediacontroller = new MediaController(
                     VideoViewActivity.this);
             mediacontroller.setAnchorView(videoview);
-
-
-            /*  switch(R.id.MyButton)
-              {
-
-                  case 1:
-                      //R.id.MyButton=R.id.MyButton2;
-                      VideoURL1=url;
-                      break;
-                  case 2:
-                      //R.id.MyButton=R.id.MyButton2;
-
-                      VideoURL1=url;
-                      break;
-                  case 3:
-                     // R.id.MyButton=R.id.MyButton3;
-
-                      VideoURL1=url;
-                      break;
-                  case 4:
-                     // R.id.MyButton=R.id.MyButton4;
-
-                      VideoURL1=url;
-                      break;
-                  case 5:
-                      //R.id.MyButton=R.id.MyButton2;
-
-                      VideoURL1=url;
-                      break;
-                  case 6:
-                     // R.id.MyButton=R.id.MyButton2;
-
-                      VideoURL1=url;
-                      break;
-                  case 7:
-                     // R.id.MyButton=R.id.MyButton2;
-
-                      VideoURL1=url;
-                      break;
-                  case 8:
-                      //R.id.MyButton=R.id.MyButton2;
-
-                      VideoURL1=url;
-                      break;
-           }*/
-
 
             // Get the URL from String VideoURL
                 Uri video = Uri.parse(VideoURL1);
