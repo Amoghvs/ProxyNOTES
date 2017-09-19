@@ -12,6 +12,8 @@ import android.content.Intent;
 
 public class MainActivity extends Activity {
 
+
+
     Button button;
     Button button2;
     Button button3;
@@ -28,6 +30,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         // Get the layout from video_main.xml
         setContentView(R.layout.activity_main);
+
+
+
 
         // Locate the button in activity_main.xml
         button = (Button) findViewById(R.id.MyButton);
